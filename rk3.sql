@@ -6,7 +6,7 @@ CREATE TABLE `cities` (
 `year` int(4) NOT NULL
 );
 insert into `cities` (`city`, `country`, `population` ,`year`) VALUES
-('Moscow', 'Russia', '15000000', '1141'),
+('Moscow', 'Russia', '15000000', '1147'),
 ('Tambov', 'Russia', '255000', '1636');
 
 SELECT city,country FROM cities WHERE (population>1000000)
